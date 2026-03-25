@@ -193,7 +193,7 @@ function AboutPage({ setPage }) {
     <p style={{ fontFamily: "'DM Sans', sans-serif", fontSize: "11px", letterSpacing: "3px", textTransform: "uppercase", color: "#7a9e8a", marginBottom: "24px" }}>About the Author</p>
     <h1 style={{ fontFamily: "'Playfair Display', Georgia, serif", fontSize: "clamp(36px, 5vw, 54px)", fontWeight: 400, color: "#cec4b0", lineHeight: 1.1, marginBottom: "48px" }}>Rene Denfeld</h1>
     <div style={{ display: "flex", gap: "40px", alignItems: "flex-start", flexWrap: "wrap", marginBottom: "40px" }}>
-      <img src="/images/author/rene-denfeld-2.jpg" alt="Rene Denfeld, author photo by Brian McDonnell" style={{ width: "260px", height: "auto", flexShrink: 0, boxShadow: "0 8px 40px rgba(0,0,0,0.4)" }} />
+      <img src="/images/author/rene-denfeld-2.jpg" alt="Rene Denfeld, author photo by Brian McDonnell" loading="lazy" style={{ width: "260px", height: "auto", flexShrink: 0, boxShadow: "0 8px 40px rgba(0,0,0,0.4)" }} />
       <div style={{ flex: "1 1 300px", display: "flex", flexDirection: "column", gap: "20px" }}>
         <p style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: "20px", color: "rgba(206,196,176,0.8)", lineHeight: 1.8 }}>Rene Denfeld is the award-winning, bestselling author of five novels including The Enchanted and The Child Finder. Her writing has been praised by Margaret Atwood as "astonishing."</p>
         <p style={{ fontFamily: "'Cormorant Garamond', Georgia, serif", fontSize: "18px", color: "rgba(206,196,176,0.6)", lineHeight: 1.8 }}>Her new literary thriller The Talking Bone will be published July 21, 2026 by Harper. It was inspired by her work exonerating innocents.</p>
